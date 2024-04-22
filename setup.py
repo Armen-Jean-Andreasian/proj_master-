@@ -4,9 +4,9 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setup(
-    name='proj_master',
-    packages=['proj_master'],
-    version='1.0',
+    name='project_master',
+    packages=['project_master'],
+    version='1.3',
     license='BSD',
 
     description='This Python script generates a standardized project structure for your Python projects. It creates the necessary folders and files based on your specifications.',

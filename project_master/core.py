@@ -1,6 +1,6 @@
 import os
-from proj_master.file_content import get_readme_content, get_gitignore_content, get_licence_content
 from datetime import datetime
+from .file_content import get_readme_content, get_gitignore_content, get_licence_content
 
 
 class ProjectStructureGenerator:

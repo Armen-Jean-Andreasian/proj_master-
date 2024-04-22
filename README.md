@@ -1,4 +1,4 @@
-#  proj_master : Project Structure Generator
+#  project_master : Project Structure Generator
 
 This Python script generates a standardized project structure for your Python projects. It creates the necessary folders and files based on your specifications.
 
@@ -34,16 +34,20 @@ The Project Structure Generator is a handy tool for Python developers to quickly
 ## Usage
 
 ```bash
-pip install proj-master
+pip install project_master
 ```
 
 Let's say you want to create a new project called "MyAwesomeProject" in pro mode. You would run the following command:
 
 
 ```python
-from proj_master import Cat
+from project_master import Cat
 
-Cat.build_structure(project_name="MyAwesomeProject", developer_name="Hardy21", pro_mode=True)
+Cat.build_structure(
+    project_name="my_project",
+    developer_name="me",
+    pro_mode=True
+)
 ```
 
 

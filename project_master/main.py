@@ -1,4 +1,4 @@
-from proj_master.src import ProjectStructureGenerator
+from .core import ProjectStructureGenerator
 
 
 class Cat:
